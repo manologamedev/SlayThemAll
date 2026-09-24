@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://wqtqgfu0u24s"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_6i076"]
+animations = [{
+"frames": [],
+"loop": 1,
+"name": &"idle_down",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"idle_left",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"idle_right",
+"speed": 5.0
+}, {
+"frames": [],
+"loop": 1,
+"name": &"idle_up",
+"speed": 5.0
+}]
+
+[node name="Knight" type="CharacterBody2D" unique_id=54948266]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=2037501220]
+scale = Vector2(0.8400003, 0.8000001)
+sprite_frames = SubResource("SpriteFrames_6i076")
+animation = &"idle_down"
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=920308891]

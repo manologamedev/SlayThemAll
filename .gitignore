@@ -1,0 +1,25 @@
+
+# Godot
+.godot/
+.import/
+.mono/
+
+# C# / .NET
+bin/
+obj/
+
+# File temporanei
+*.tmp
+*.translation
+mono_crash.*.json
+
+# Configurazioni locali
+.vscode/
+.idea/
+
+# Credenziali di esportazione
+export_credentials.cfg
+
+# Sistema operativo
+.DS_Store
+Thumbs.db

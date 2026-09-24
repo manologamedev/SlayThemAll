@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://m286a3u3cq26"]
+
+[ext_resource type="Texture2D" uid="uid://2jesv0ggo1q" path="res://Assets/Arena/Arena.png" id="1_ydlk6"]
+
+[node name="Arena" type="Node2D" unique_id=2021340825]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=316091973]
+position = Vector2(-0.999967, 0)
+scale = Vector2(0.7188995, 0.765)
+texture = ExtResource("1_ydlk6")
+
+[node name="Camera2D" type="Camera2D" parent="." unique_id=1381298098]
