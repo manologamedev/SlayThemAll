@@ -1,5 +1,0 @@
-[gd_scene format=3 uid="uid://m286a3u3cq26"]
-
-[node name="Arena" type="Node2D" unique_id=2021340825]
-
-[node name="Camera2D" type="Camera2D" parent="." unique_id=1381298098]
